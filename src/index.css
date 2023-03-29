@@ -11,3 +11,109 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.charts__menu--button {
+  z-index: 1;
+  position: absolute;
+  color: rgb(160, 43, 43);
+  right: 340px;
+  top: 112px;
+  width: 160;
+  height: 160;
+  transform: scale(1.8);
+}
+
+.cards {
+  height: 50px;
+  width: 130px;
+  border: 5px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  margin-left: 5px;
+  margin-top: 9px;
+  display: inline-block;
+}
+
+.cards:hover {
+  cursor: grab;
+}
+
+.cards > p {
+  color: black;
+  margin-top: 5px;
+  text-align: center;
+  padding: 12px;
+}
+
+.charts__table {
+  overflow: scroll;
+  padding-top: 25px;
+  background-color: #efe7e7;
+  height: 500px;
+  width: 250px;
+  border-radius: 5px;
+  position: absolute;
+  right: 120px;
+  top: 110px;
+  text-align: center;
+}
+
+.Board {
+  width: 1000px;
+  height: 680px;
+  border: 2px solid black;
+  margin-left: 5px;
+  margin-top: 10px;
+  overflow: scroll;
+  justify-content: space-around;
+}
+
+
+.styledButton{
+  left: 600px;
+   top: 200px;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 14px 24px;
+  border: none;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+  color: #fff;
+
+}
+
+.styledInput {
+  border: 3px solid #000;
+  border-radius: 5px;
+  height: 50px;
+  line-height: normal;
+  color: #282828;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  user-select: auto;
+  font-size: 16px;
+  padding: 0 6px;
+  padding-left: 12px;
+  width: 15rem;
+}
+
+.styledInput:focus {
+  border: 3px solid #5551ff;
+}
+
+
+.parentStyled{
+  display: inline-block;
+  width: fit-content;
+  
+}
+
+.parentStyled:hover{
+  border: 5px solid transparent;
+}
